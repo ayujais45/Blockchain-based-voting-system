@@ -7,10 +7,16 @@ Features
 <br>
 Decentralised Architecture: Eliminated the need for a central authority by distributing control across the bloachchain network.
 <br>
+<br>
 Smart Contract Implementation: Utilizes Ethereum smart contracts to automate and enforce voting rules.
+<br>
 <br>
 Voter Anonymity: Ensures voter privacy through cryptographic techniques.
 <br>
+<br>
 Real-Time Results: Provides instant access to voting outcomes as they are recorded on the blockchain.
 <br>
+<br>
 User-Friendly Interface: Features an intuitve web application for seamless voter interactions.
+<br>
+<br>
