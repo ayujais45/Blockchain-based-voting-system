@@ -1,51 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Decentralized Voting System Using Ethereum Blockchain</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 20px; padding: 20px; line-height: 1.6; }
-        h1, h2 { color: #333; }
-        a { color: #007bff; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        ul { list-style-type: disc; margin-left: 20px; }
-        .container { max-width: 800px; margin: auto; }
-        hr { border: 1px solid #ddd; }
-    </style>
-</head>
-<body>
-
 <div class="container">
-    <h1>Decentralized-Voting-System-Using-Ethereum-Blockchain</h1>
-    
-    <p>The Decentralized Voting System using Ethereum Blockchain is a secure and transparent solution for conducting elections. Leveraging Ethereum's blockchain technology, this system ensures tamper-proof voting records, enabling users to cast their votes remotely while maintaining anonymity and preventing fraud. Explore this innovative project for trustworthy and decentralized voting processes.</p>
-    
-    <p>For a cool demo of this project, watch this <a href="#">YouTube video</a>.</p>
-    <p>For more details, check out the <a href="#">Project Report</a>.</p>
-    
-    <p><strong>PS:</strong> This project is not maintained anymore.</p>
+    <h1></b>Blockchain-Based-Voting-System</h1>
+  <b> The Decentralized Voting System is a blockchain-based application that ensures secure, transparent, and tamper-proof elections. By leveraging Ethereum's blockchain technology, the system eliminates the need for intermediaries and prevents election fraud while maintaining voter anonymity. This solution enables remote voting, making the electoral process more accessible and reliable.</b>
 
-    <hr>
-
+   <div class="container">
     <h2>Features</h2>
-    <ul>
-        <li>Implements JWT for secure voter authentication and authorization.</li>
-        <li>Utilizes Ethereum blockchain for tamper-proof and transparent voting records.</li>
-        <li>Removes the need for intermediaries, ensuring a trustless voting process.</li>
-        <li>Admin panel to manage candidates, set voting dates, and monitor results.</li>
-        <li>Intuitive UI for voters to cast votes and view candidate information.</li>
+       
+   <ul>
+        <li>Secure voter registration and authentication</li>
+        <li>Transparent voting process with immutable records</li>
+        <li>Real-time vote counting</li>
+        <li>Web-based user interface for ease of access</li>
     </ul>
-
+    <div class="container">
+    <h2>Technologies Used</h2>
+    <ul>
+        <li><strong>Ethereum Blockchain:</strong> Smart contract execution</li>
+        <li><strong>Solidity:</strong> Smart contract programming language</li>
+        <li><strong>Web3.js:</strong> Interaction between front-end and blockchain</li>
+        <li><strong>HTML, CSS, JavaScript:</strong> Front-end development</li>
+        <li><strong>MetaMask:</strong> Ethereum wallet for transactions</li>
+    </ul>
     <h2>Requirements</h2>
-    <ul>
-        <li>Node.js (version – 18.14.0)</li>
-        <li>MetaMask</li>
-        <li>Python (version – 3.9)</li>
-        <li>FastAPI</li>
-        <li>MySQL Database (port – 3306)</li>
-    </ul>
-</div>
+<ul>
+    <li><strong>Node.js</strong> (Version 18.14.0) – Backend server and package management</li>
+    <li><strong>Python</strong> (Version 3.9) – Required for backend services using FastAPI</li>
+    <li><strong>MetaMask</strong> – Browser extension for Ethereum transactions</li>
+    <li><strong>FastAPI</strong> – Python-based web framework for API management</li>
+    <li><strong>MySQL Database</strong> (Port 3306) – For storing user and voting data</li>
+</ul>
 
-</body>
-</html>
+<h3>Blockchain Dependencies</h3>
+<ul>
+    <li><strong>Ethereum Blockchain</strong> – Used for secure and transparent voting</li>
+    <li><strong>Solidity</strong> – Smart contract programming language</li>
+    <li><strong>Web3.js</strong> – JavaScript library for blockchain interaction</li>
+    <li><strong>Truffle</strong> – Development framework for Ethereum smart contracts</li>
+    <li><strong>Ganache</strong> – Local Ethereum blockchain for testing</li>
+</ul>
+
+<h3>System Requirements</h3>
+<ul>
+    <li><strong>OS:</strong> Windows, macOS, or Linux</li>
+    <li><strong>RAM:</strong> Minimum 4GB (8GB recommended)</li>
+    <li><strong>Storage:</strong> At least 10GB free space</li>
+</ul>
+<h2>Setup and Installation</h2>
+    <h3>Prerequisites</h3>
+    <ul>
+        <li>Node.js and npm installed</li>
+        <li>MetaMask browser extension</li>
+        <li>Ganache (for local Ethereum blockchain testing)</li>
+    </ul>
+            <li>Open a terminal.</li>
+            <li>Clone the repository by using the command:
+            <pre><code>git clone https://github.com/your-repo/blockchain-voting.git</code></pre>
+            </li>
+        <li>Download and install <a href="https://trufflesuite.com/ganache/">Ganache</a>.</li>
+        <li>Create a workspace named <code>development</code> in Truffle projects and add <code>truffle-config.js</code>.</li>
+        <li>Download <a href="https://metamask.io/">MetaMask</a> extension for the browser.</li>
+        <li>Create a wallet and import accounts from Ganache.</li>
+        <li>Add a network to MetaMask (Network Name - Localhost 7575, RPC URI - <a href="http://localhost:7545">http://localhost:7545</a>, Chain ID - 1337, Currency Symbol - ETH).</li>
+        <li>Open MySQL and create a database named <code>voter_db</code> (Do not use XAMPP).</li>
+        <li>In the database, create a table named <code>voters</code> using the following SQL command:
+            <pre><code>CREATE TABLE voters (
+    voter_id VARCHAR(36) PRIMARY KEY NOT NULL,
+    role ENUM('admin', 'user') NOT NULL,
+    password VARCHAR(255) NOT NULL
+);</code></pre>
+        </li>
+        <li>Install Truffle globally:
+            <pre><code>npm install -g truffle</code></pre>
+        </li>
+        <li>Go to the repository root and install node modules:
+            <pre><code>npm install</code></pre>
+        </li>
+        <li>Install Python dependencies:
+            <pre><code>pip install fastapi mysql-connector-python pydantic python-dotenv uvicorn</code></pre>
+        </li>
+    </ol>
+    
