@@ -3,67 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blockchain-Based Voting System</title>
+    <title>Decentralized Voting System Using Ethereum Blockchain</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 20px; padding: 20px; }
-        h1, h2, h3 { color: #333; }
-        code { background: #f4f4f4; padding: 5px; border-radius: 5px; }
-        pre { background: #f4f4f4; padding: 10px; border-radius: 5px; }
+        body { font-family: Arial, sans-serif; margin: 20px; padding: 20px; line-height: 1.6; }
+        h1, h2 { color: #333; }
+        a { color: #007bff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        ul { list-style-type: disc; margin-left: 20px; }
+        .container { max-width: 800px; margin: auto; }
+        hr { border: 1px solid #ddd; }
     </style>
 </head>
 <body>
-    <h1>Blockchain-Based Voting System</h1>
-    <p>This project implements a decentralized voting system using the Ethereum blockchain. It ensures secure, transparent, and tamper-proof elections using smart contracts.</p>
+
+<div class="container">
+    <h1>Decentralized-Voting-System-Using-Ethereum-Blockchain</h1>
     
+    <p>The Decentralized Voting System using Ethereum Blockchain is a secure and transparent solution for conducting elections. Leveraging Ethereum's blockchain technology, this system ensures tamper-proof voting records, enabling users to cast their votes remotely while maintaining anonymity and preventing fraud. Explore this innovative project for trustworthy and decentralized voting processes.</p>
+    
+    <p>For a cool demo of this project, watch this <a href="#">YouTube video</a>.</p>
+    <p>For more details, check out the <a href="#">Project Report</a>.</p>
+    
+    <p><strong>PS:</strong> This project is not maintained anymore.</p>
+
+    <hr>
+
     <h2>Features</h2>
     <ul>
-        <li>Secure voter registration and authentication</li>
-        <li>Transparent voting process with immutable records</li>
-        <li>Real-time vote counting</li>
-        <li>Web-based user interface for ease of access</li>
+        <li>Implements JWT for secure voter authentication and authorization.</li>
+        <li>Utilizes Ethereum blockchain for tamper-proof and transparent voting records.</li>
+        <li>Removes the need for intermediaries, ensuring a trustless voting process.</li>
+        <li>Admin panel to manage candidates, set voting dates, and monitor results.</li>
+        <li>Intuitive UI for voters to cast votes and view candidate information.</li>
     </ul>
-    
-    <h2>Technologies Used</h2>
+
+    <h2>Requirements</h2>
     <ul>
-        <li><strong>Ethereum Blockchain:</strong> Smart contract execution</li>
-        <li><strong>Solidity:</strong> Smart contract programming language</li>
-        <li><strong>Web3.js:</strong> Interaction between front-end and blockchain</li>
-        <li><strong>HTML, CSS, JavaScript:</strong> Front-end development</li>
-        <li><strong>MetaMask:</strong> Ethereum wallet for transactions</li>
+        <li>Node.js (version – 18.14.0)</li>
+        <li>MetaMask</li>
+        <li>Python (version – 3.9)</li>
+        <li>FastAPI</li>
+        <li>MySQL Database (port – 3306)</li>
     </ul>
-    
-    <h2>Setup and Installation</h2>
-    <h3>Prerequisites</h3>
-    <ul>
-        <li>Node.js and npm installed</li>
-        <li>MetaMask browser extension</li>
-        <li>Ganache (for local Ethereum blockchain testing)</li>
-    </ul>
-    
-    <h3>Steps</h3>
-    <pre><code>git clone https://github.com/your-repo/blockchain-voting.git
-cd blockchain-voting
-npm install</code></pre>
-    
-    <h3>Compile and Deploy Smart Contract</h3>
-    <pre><code>truffle compile
-truffle migrate --network development</code></pre>
-    
-    <h3>Start Local Blockchain</h3>
-    <pre><code>ganache-cli</code></pre>
-    
-    <h3>Run Front-End</h3>
-    <pre><code>npm start</code></pre>
-    
-    <h2>Smart Contract Deployment (Ethereum Testnet)</h2>
-    <p>Replace <code>contractAddress</code> in <code>app.js</code> with the deployed contract address.</p>
-    <p>Use Remix IDE or Truffle to deploy the contract to the Ethereum testnet.</p>
-    <p>Fund your MetaMask wallet with test ETH from a faucet.</p>
-    
-    <h2>Usage</h2>
-    <p>Open the web interface, select a candidate, and cast your vote. The election results update in real time.</p>
-    
-    <h2>License</h2>
-    <p>This project is licensed under the MIT License.</p>
+</div>
+
 </body>
 </html>
