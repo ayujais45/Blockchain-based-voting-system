@@ -48,7 +48,7 @@
     <ol>
         <li>Open a terminal.</li>
         <li>Clone the repository by using the command:
-            <pre><code>git clone https://github.com/your-repo/blockchain-voting.git</code></pre>
+            <pre><code>git clone https://github.com/ayujais45/Blockchain-based-voting-system.git</code></pre>
         </li>
         <li>Download and install <a href="https://trufflesuite.com/ganache/">Ganache</a>.</li>
         <li>Create a workspace named <code>development</code> in Truffle projects and add <code>truffle-config.js</code>.</li>
