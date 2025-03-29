@@ -44,6 +44,26 @@
         <li><strong>RAM:</strong> Minimum 4GB (8GB recommended)</li>
         <li><strong>Storage:</strong> At least 10GB free space</li>
     </ul>
+     <div class="container">
+ <h2> 📸 Screenshots</h2>
+<u1>
+    
+### 🔑 Login Page
+![login png](https://github.com/user-attachments/assets/d2dbef93-229f-49ea-9ae0-52394a8261f1)
+
+### 🏛 Admin Panel
+![admin png](https://github.com/user-attachments/assets/f02934ae-c04b-4ee3-badc-fb08512e8e13)
+
+
+### 🗳 Voting Page
+![voting png](https://github.com/user-attachments/assets/3176856c-b3c7-47c1-ba36-b69bab26a1a7)
+
+
+### 📊 Results Page
+![results png](https://github.com/user-attachments/assets/f2cbfc2f-c0df-4a2f-a444-e6bc5e17585c)   
+
+</u1>
+       
 <h2>📦 Installation</h2>
     <ol>
         <li>Open a terminal.</li>
@@ -187,6 +207,13 @@
 </code></pre>
 
 <p>This structure separates concerns between the <strong>backend</strong>, <strong>blockchain</strong>, and <strong>frontend</strong>, making the system modular and easy to manage.</p>
+ <div class="container">
+   <h2>📜 License</h2>
+    <p>This project is open-source and free to use.</p> 
+     <div class="container">
+   <h2>📞 Contact</h2>
+         <p>📧 Email: aayushijaiswal88@gmail.com</p>
+         <p>🔗 GitHub: ayujais45</p>
 <p><b>Thank you for exploring the Blockchain-Based Voting System! 🚀 This project is designed to bring transparency and security to the voting process. If you have any feedback, suggestions, or contributions, feel free to collaborate. Let's build a future of trust in digital elections! 🗳️</p></b>
 
     
